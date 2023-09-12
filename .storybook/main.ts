@@ -5,6 +5,11 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    {
+      name: '@chromaui/addon-visual-tests',
+      options: {
+      },
+    }
   ],
   framework: {
     name: '@storybook/react-vite',
